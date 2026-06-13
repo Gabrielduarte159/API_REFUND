@@ -7,6 +7,7 @@ const routes = Router()
 
 routes.use("/users",usersRoutes)
 routes.use("/sessions",sessionsRoutes)
-routes.use("/",refundsRoutes)
+//Rotas privadas
+routes.use("/refunds",refundsRoutes)
 
 export {routes}
